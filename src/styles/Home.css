@@ -38,4 +38,5 @@
 
 .home__image img{
   display: flex;
+  width: 100%;
 }

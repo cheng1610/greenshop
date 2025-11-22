@@ -101,3 +101,13 @@
   text-align: left;
   letter-spacing: 0.5px;
 }
+
+@media (width < 692px) {
+  .product__header{
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  
+}

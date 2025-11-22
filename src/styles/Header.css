@@ -1,6 +1,7 @@
 .header {
   position: sticky;
   top: 0;
+  width: 100%;
   z-index: 1000;
   display: flex;
   justify-content: space-around;
@@ -107,4 +108,14 @@
 .overlay.active {
   opacity: 1;
   visibility: visible;
+}
+
+@media (width < 832px) {
+  .search__bar{
+    display: none;
+  }
+
+  .header{
+    gap: 2rem;
+  }
 }
